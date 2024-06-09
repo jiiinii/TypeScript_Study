@@ -28,4 +28,4 @@ const user3 = {
 };
 
 console.log(user1, user2, user3);
-// 결과 => { name: '박진희', role: 0 } { name: '홍길동', role: 1 } { name: '김누구', role: 2 }
+// 결과 =>  name: '박진희', role: 0, language: 'ko' } { name: '홍길동', role: 1, language: 'en' } { name: '김누구', role: 2 }

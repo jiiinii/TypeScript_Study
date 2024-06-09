@@ -16,6 +16,9 @@ anyVar.toFixed(); // 숫자
 let num: number = 10;
 num = anyVar;
 
+let str: string = `typeScript`;
+str = anyVar;
+
 // <---------------------------------------------------------------------->
 
 // unknown

@@ -51,3 +51,23 @@ let countryNumberCodes: CountryNumbers = {
   UnitedState: 840,
   UnitedKingdom: 826,
 };
+
+type personalInfo = {
+  [key: string]: boolean;
+};
+let personalInfoAgree: personalInfo = {
+  name: true,
+  age: true,
+  e_mail: false,
+  phoneNum: true,
+};
+
+type sequence = {
+  [key: number]: string;
+};
+let firstCome: sequence = {
+  1: `dog`,
+  2: `cat`,
+  3: `monkey`,
+  4: `elephant`,
+};
