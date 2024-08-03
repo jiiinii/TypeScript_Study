@@ -10,12 +10,14 @@ let num4: number = -0.123;
 let num5: number = Infinity;
 let num6: number = -Infinity;
 let num7: number = NaN;
+console.log(`num1 >> ${num1}, num4 >> ${num4}, num7 >> ${num7}`);
 
 // string 타입 (문자)
 let str1: string = "hello";
 let str2: string = "hello";
 let str3: string = `hello`;
 let str4: string = `hello ${num1}`;
+console.log(`str4 >>> ${str4}`);
 
 // boolean 타입 ()
 let bool1: boolean = true;
@@ -26,6 +28,7 @@ let null1: null = null;
 
 // undefined
 let unde1: undefined = undefined;
+console.log(`unde1 >>> ${unde1}`);
 
 // let numA: number = null // 허용 X. 이미 null이라는 타입이 존재하기 때문에 error 발생
 
@@ -34,6 +37,7 @@ let unde1: undefined = undefined;
 let numA: 10 = 10;
 
 let strA: "hello" = "hello";
+console.log(`strA >>> ${strA}`);
 // let strB: "jinhui" = "park"; // X: error
 
 let bool_: true = true;

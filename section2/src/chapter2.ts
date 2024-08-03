@@ -6,16 +6,25 @@ let strArr: string[] = ["hi", "im", "jinhui"];
 let boolArr: Array<boolean> = [true, false, true];
 let strArr2: Array<string> = [`hello`, `type`, `script`];
 let numArr2: Array<number> = [123, 456, 789];
+console.log(`boolArr >> ${boolArr} & strArr2 >> ${strArr2}`);
 
 // 배열에 들어가는 타입이 다양할 경우
 let multiArr: (number | string)[] = [1, "Hello"];
 let multiArr2: (boolean | undefined)[] = [false, undefined];
+let muntiArr3: (string | any)[] = ["message", 33];
+console.log(`muntiArr3 >> ${muntiArr3}`);
 
 // 다차원 배열의 타입을 정의하는 법
 let doubleArr: number[][] = [
   [1, 2, 3],
   [4, 5],
 ];
+
+let doubleArr2: (string | boolean)[][] = [
+  ["hi", true, "real?"],
+  ["hello", false, "no,,"],
+];
+console.log(`doubleArr2 >> ${doubleArr2}`);
 
 // 튜플
 // 길이와 타입이 고정된 배열

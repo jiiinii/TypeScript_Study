@@ -29,12 +29,14 @@ let animal: Animal = {
   name: "기린",
   color: "yellow",
 };
+console.log(`animal >>> ${animal.name}, ${animal.color}`);
 
 let dog: Dog = {
   name: "돌돌이",
   color: "brown",
   breed: "진도",
 };
+console.log(`dog >>> ${dog.name}, ${dog.color}, ${dog.breed}`);
 
 animal = dog; // 업캐스팅
 // dog = animal; // 다운캐스팅(err)

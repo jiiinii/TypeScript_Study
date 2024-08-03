@@ -37,11 +37,15 @@ type CountryCodes = {
   //   UnitedState: string;
   //   UnitedKingdom: string;
 };
+
 let countryCodes = {
   Korea: "ko",
   UnitedState: "us",
   UnitedKingdom: "uk",
 };
+console.log(
+  `CountryCodes >>> ${countryCodes.Korea}, ${countryCodes.UnitedState}`
+);
 
 type CountryNumbers = {
   [key: string]: number;

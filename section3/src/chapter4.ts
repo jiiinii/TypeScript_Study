@@ -11,10 +11,10 @@
 let a: String | Number | Boolean;
 a = 1;
 a = "Hello";
-
 a = true;
 
 let arr: (number | string | boolean)[] = [1, "Hello", true];
+console.log(`arr >>> ${arr}`);
 
 // type Dog = {
 //   name: string;

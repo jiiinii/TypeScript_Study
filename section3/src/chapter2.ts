@@ -5,6 +5,7 @@
 function unknownExam() {
   // 업캐스팅
   let a: unknown = 1;
+  console.log(`a >> ${a}`);
   let b: unknown = "hello";
   let c: unknown = true;
   let d: unknown = null;
@@ -16,6 +17,7 @@ function unknownExam() {
   // let str: string = unknownVar;
   // let bool: boolean = unknownVar;
 }
+unknownExam();
 
 /**
  * Never 타입(공집합): 모든 타입의 서브타입.

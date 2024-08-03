@@ -7,6 +7,7 @@ let user: {
   id: 1,
   name: "박진희",
 };
+console.log(`user >>> ${user.id}, ${user.name}`);
 
 let dog: {
   name: string;
@@ -15,6 +16,7 @@ let dog: {
   name: "코코",
   color: "white",
 };
+console.log(`dog >>> ${dog.name}, ${dog.color}`);
 
 user = {
   name: "홍길동",
@@ -26,3 +28,4 @@ let config: {
 } = {
   apiKey: "MY_API_KEY",
 };
+console.log(`config >>> ${config.apiKey}`);
