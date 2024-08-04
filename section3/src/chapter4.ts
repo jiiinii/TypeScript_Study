@@ -16,16 +16,6 @@ a = true;
 let arr: (number | string | boolean)[] = [1, "Hello", true];
 console.log(`arr >>> ${arr}`);
 
-// type Dog = {
-//   name: string;
-//   color: string;
-// };
-
-// type Person = {
-//   name: string;
-//   language: string;
-// };
-
 type Union1 = Dog | Person;
 
 // Dog 타입

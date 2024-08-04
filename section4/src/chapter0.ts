@@ -32,6 +32,7 @@ introduce("박진희", 26, 161);
 // introduce(1); //err
 
 function getSum(...rest: number[]) {
+  console.log(`rest >>> `, rest);
   let sum = 0;
   rest.forEach((it) => (sum += it));
 
