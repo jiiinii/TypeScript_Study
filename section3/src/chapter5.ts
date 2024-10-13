@@ -15,7 +15,9 @@ let c = {
 console.log(`c >>> ${c.id}, ${c.profile.nickName}`);
 
 let { id, name, profile } = c;
-console.log(`id >>> ${id}, name >>> ${name}`);
+console.log(
+  `id >>> ${id}, name >>> ${name}, profile >>> ${JSON.stringify(profile)}`
+);
 
 let [one, two, three] = [1, "Hello", true];
 console.log(`one >>> ${one}, two >>> ${two}, three >>> ${three}`);

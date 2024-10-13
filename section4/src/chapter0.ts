@@ -28,7 +28,7 @@ function introduce(name = "박진희", age: number, tall?: number) {
   }
 }
 introduce("박진희", 26);
-introduce("박진희", 26, 161);
+introduce("박진희", 26, 151);
 // introduce(1); //err
 
 function getSum(...rest: number[]) {

@@ -10,7 +10,10 @@ console.log(`boolArr >> ${boolArr} & strArr2 >> ${strArr2}`);
 
 // 배열에 들어가는 타입이 다양할 경우
 let multiArr: (number | string)[] = [1, "Hello"];
-let multiArr2: (boolean | undefined)[] = [false, undefined];
+let multiArr2: (boolean | undefined)[][] = [
+  [false, undefined],
+  [true, undefined],
+];
 let muntiArr3: (string | any)[] = ["message", 33];
 console.log(`muntiArr3 >> ${muntiArr3}`);
 
@@ -25,6 +28,11 @@ let doubleArr2: (string | boolean)[][] = [
   ["hello", false, "no,,"],
 ];
 console.log(`doubleArr2 >> ${doubleArr2}`);
+
+let doubleArr3: Array<boolean>[] = [
+  [true, false],
+  [false, true],
+];
 
 // 튜플
 // 길이와 타입이 고정된 배열

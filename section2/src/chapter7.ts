@@ -5,20 +5,24 @@
 function func1(): String {
   return "hello";
 }
+func1();
 
 function func2(): void {
   console.log("hello"); // 반환 X , 출력 O
 }
+func2();
 
 function func3(): undefined {
   console.log("hello");
   return; // undefined랑 반환하는 것과 같다.
 }
+func3();
 
 function func4(): null {
   console.log("hello");
   return null;
 }
+func4();
 
 let a: void;
 // a = 1; // 오류
