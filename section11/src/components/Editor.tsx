@@ -1,10 +1,11 @@
 import { useState } from "react";
+import { useTodoDispatch } from "../App";
 
-interface Props {
-  onClickAdd: (text: string) => void;
-}
+interface Props {}
 
 export default function Editor(props: Props) {
+  const dispatch = useTodoDispatch();
+
   const [text, setText] = useState(""); // text의 초기값을 빈 문자열로 전달
 
   const onChangeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -12,7 +13,7 @@ export default function Editor(props: Props) {
   };
 
   const onClickButton = () => {
-    props.onClickAdd(text);
+    dispatch.onClickAdd(text);
     setText("");
   };
   return (
